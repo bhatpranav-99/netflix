@@ -1,0 +1,29 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.answer {
+    /* display: none; */
+    overflow: hidden;
+    /* animation-duration: 0.5s; */
+    /* transition: 1s ease-in-out;    */
+    animation-fill-mode:both;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: auto;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        height: auto;
+    }
+    to {
+        height: 0;
+    }
+}
